@@ -12,6 +12,13 @@ import com.ph.grib2tools.grib2file.productdefinition.ProductDefinitionTemplate40
 import com.ph.grib2tools.grib2file.productdefinition.ProductDefinitionTemplate4x;
 
 public class GRIB2FileTest {
+    
+        public static float convKeltoC(double a)
+        {
+            float k = (float)(a - 273.15);
+            //System.out.printf("%.2f",k);
+            return k;
+        }
 
 	public static void main(String[] args) {
 		
@@ -64,10 +71,20 @@ public class GRIB2FileTest {
 			// Get grid data
 			double latitude = 44.3; //funzionante con 44.3
 			double longitude = 10.3; //funzionante con 10.3
-			System.out.println("Value at (" + latitude + ", " + longitude + "): " + gribFile.interpolateValueAtLocation(gridid, latitude, longitude));
-			
+                        
+			//System.out.println("Value at (" + latitude + ", " + longitude + "): " + gribFile.interpolateValueAtLocation(gridid, latitude, longitude));
+			float res = convKeltoC(gribFile.interpolateValueAtLocation(gridid, latitude, longitude));
+                        
+                        System.out.print("Value at (" + latitude + ", " + longitude + "): ");
+                        System.out.printf("%.2f",res);
+                        System.out.println("°C");
+                        
+                        System.out.println("Value at (" + latitude + ", " + longitude + "): " + gribFile.interpolateValueAtLocation(gridid, latitude, longitude) + " °K");
 		} catch (Exception e) {
 			e.printStackTrace();
 		}
+                
+                
+                
 	}
 }
