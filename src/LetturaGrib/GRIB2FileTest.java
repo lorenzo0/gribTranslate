@@ -62,8 +62,8 @@ public class GRIB2FileTest {
 			System.out.println("   to: (latitude, longitude): " + GribFile.unitsToDeg(gridDefinition.lastPointLat) + ", " + GribFile.unitsToDeg(gridDefinition.lastPointLon));		
 
 			// Get grid data
-			double latitude = 44.3;
-			double longitude = 10.3;
+			double latitude = 44.3; //funzionante con 44.3
+			double longitude = 10.3; //funzionante con 10.3
 			System.out.println("Value at (" + latitude + ", " + longitude + "): " + gribFile.interpolateValueAtLocation(gridid, latitude, longitude));
 			
 		} catch (Exception e) {
