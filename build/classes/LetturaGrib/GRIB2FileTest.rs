@@ -1,2 +1,0 @@
-GRIB2FileTest
-LetturaGrib.Tools

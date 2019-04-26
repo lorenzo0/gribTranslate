@@ -1,0 +1,9 @@
+﻿loren sta lavorando sul file format.grib in data: 2019/04/26 10:18:36
+---------------------------
+
+Viene richiesto dall'utente informazioni nel punto: 43.9, 10.0
+
+Si restituisce come responso: -1.986914°C e 271.1631 °K
+
+---------------------------
+
