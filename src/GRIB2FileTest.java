@@ -89,40 +89,48 @@ public class GRIB2FileTest {
 			System.out.println("   from (latitude, longitude): " + GribFile.unitsToDeg(gridDefinition.firstPointLat) + ", " + GribFile.unitsToDeg(gridDefinition.firstPointLon));		
 			System.out.println("   to: (latitude, longitude): " + GribFile.unitsToDeg(gridDefinition.lastPointLat) + ", " + GribFile.unitsToDeg(gridDefinition.lastPointLon));		
                         
-                        
+                        //ciclo dowhile finchè non digita 0 alla richiesta di altri valori (Guarda prima della condizione while)
                         do{
-                            
+                        //Prendo i valori chiedendoli all'utente       
                             System.out.println("Inserisci la latitudine: ");
                             double latitude = scanner.nextDouble();
                             
                             System.out.println("Inserisci la longitudine: ");
                             double longitude = scanner.nextDouble();
-			// Get grid data
-			/*double latitude = 44.3; //funzionante con 44.3
-			double longitude = 10.3; //funzionante con 10.3*/
+                            
+			//Prendo i valori senza chiederli all'utente            
+                        // RANGE VALORI FUNZIONANTI LAT/LONG
+			/*double latitude = 44.3; //43.7 - 44.3 lat
+			double longitude = 10.3; //0.0 - 43.0 lon*/
                         
 			//System.out.println("Value at (" + latitude + ", " + longitude + "): " + gribFile.interpolateValueAtLocation(gridid, latitude, longitude));
 			float res = convKeltoC(gribFile.interpolateValueAtLocation(gridid, latitude, longitude));
                         
+                        //stampo a schermo il risultato sia in °C che in °K
                         System.out.print("Value at (" + latitude + ", " + longitude + "): ");
                         System.out.printf("%.2f",res);
                         System.out.println("°C");
-                        
                         System.out.println("Value at (" + latitude + ", " + longitude + "): " + gribFile.interpolateValueAtLocation(gridid, latitude, longitude) + " °K");
                         
+                        //scrivo nel file le informazioni
                         info = "Viene richiesto dall'utente informazioni nel punto: " + latitude + ", " + longitude + "\n";
                         log.write(info + "\r\n");
-                        
                         info = "Si restituisce come responso: " + res + "°C e " + gribFile.interpolateValueAtLocation(gridid, latitude, longitude) + " °K";
                         log.write(info + "\r\n");
                         
+                        //se 1 allora rinizia il ciclo chiedendo all'utente i dati per continuare, se 0 allora esce
                         System.out.println("Vuoi osservare anche un altra parte della mappa? (1/0)");
                         scelta=scanner.nextInt();
                         }while(scelta!=0);
                         } catch (Exception e) {
 			e.printStackTrace();
 		}
+                //chiudo il file
                 log.write("\r\n---------------------------\r\n\r\n");
                 log.close();
 	}
 }
+
+// RANGE VALORI FUNZIONANTI LAT/LONG
+//43.7 - 44.3 lat
+//0.0 - 43.0 lon

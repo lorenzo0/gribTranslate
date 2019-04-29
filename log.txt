@@ -7,3 +7,135 @@ Si restituisce come responso: -1.986914°C e 271.1631 °K
 
 ---------------------------
 
+loren sta lavorando sul file format.grib in data: 2019/04/29 10:39:33
+---------------------------
+
+
+---------------------------
+
+loren sta lavorando sul file format.grib in data: 2019/04/29 10:43:38
+---------------------------
+
+Viene richiesto dall'utente informazioni nel punto: 44.0, 10.0
+
+Si restituisce come responso: -1.9848694°C e 271.16513 °K
+Viene richiesto dall'utente informazioni nel punto: 43.9, 10.0
+
+Si restituisce come responso: -1.986914°C e 271.1631 °K
+Viene richiesto dall'utente informazioni nel punto: 43.7, 10.0
+
+Si restituisce come responso: -1.9871582°C e 271.16284 °K
+
+---------------------------
+
+loren sta lavorando sul file format.grib in data: 2019/04/29 10:44:06
+---------------------------
+
+
+---------------------------
+
+loren sta lavorando sul file format.grib in data: 2019/04/29 10:44:15
+---------------------------
+
+
+---------------------------
+
+loren sta lavorando sul file format.grib in data: 2019/04/29 10:44:31
+---------------------------
+
+Viene richiesto dall'utente informazioni nel punto: 43.7, 11.0
+
+Si restituisce come responso: -1.9817871°C e 271.1682 °K
+
+---------------------------
+
+loren sta lavorando sul file format.grib in data: 2019/04/29 10:44:52
+---------------------------
+
+
+---------------------------
+
+loren sta lavorando sul file format.grib in data: 2019/04/29 10:45:00
+---------------------------
+
+
+---------------------------
+
+loren sta lavorando sul file format.grib in data: 2019/04/29 10:45:06
+---------------------------
+
+Viene richiesto dall'utente informazioni nel punto: 44.3, 10.0
+
+Si restituisce come responso: -1.9888061°C e 271.1612 °K
+
+---------------------------
+
+loren sta lavorando sul file format.grib in data: 2019/04/29 10:45:42
+---------------------------
+
+Viene richiesto dall'utente informazioni nel punto: 44.0, 8.0
+
+Si restituisce come responso: -1.9866394°C e 271.16336 °K
+Viene richiesto dall'utente informazioni nel punto: 44.0, 2.0
+
+Si restituisce come responso: -1.9837097°C e 271.1663 °K
+
+---------------------------
+
+loren sta lavorando sul file format.grib in data: 2019/04/29 10:45:59
+---------------------------
+
+Viene richiesto dall'utente informazioni nel punto: 44.0, 1.0
+
+Si restituisce come responso: -1.9895996°C e 271.1604 °K
+Viene richiesto dall'utente informazioni nel punto: 44.0, 15.0
+
+Si restituisce come responso: -1.9916443°C e 271.15836 °K
+
+---------------------------
+
+loren sta lavorando sul file format.grib in data: 2019/04/29 10:46:24
+---------------------------
+
+Viene richiesto dall'utente informazioni nel punto: 44.0, 25.0
+
+Si restituisce come responso: -1.9879516°C e 271.16205 °K
+Viene richiesto dall'utente informazioni nel punto: 44.0, 30.0
+
+Si restituisce come responso: -1.9868835°C e 271.16312 °K
+Viene richiesto dall'utente informazioni nel punto: 44.0, 40.0
+
+Si restituisce come responso: -1.9863037°C e 271.1637 °K
+
+---------------------------
+
+loren sta lavorando sul file format.grib in data: 2019/04/29 10:47:09
+---------------------------
+
+Viene richiesto dall'utente informazioni nel punto: 44.0, 43.0
+
+Si restituisce come responso: -1.987738°C e 271.16226 °K
+
+---------------------------
+
+loren sta lavorando sul file format.grib in data: 2019/04/29 10:47:20
+---------------------------
+
+Viene richiesto dall'utente informazioni nel punto: 44.0, 1.0
+
+Si restituisce come responso: -1.9895996°C e 271.1604 °K
+Viene richiesto dall'utente informazioni nel punto: 44.0, 0.0
+
+Si restituisce come responso: -1.9830688°C e 271.16693 °K
+
+---------------------------
+
+loren sta lavorando sul file format.grib in data: 2019/04/29 10:47:40
+---------------------------
+
+Viene richiesto dall'utente informazioni nel punto: 44.0, 43.0
+
+Si restituisce come responso: -1.987738°C e 271.16226 °K
+
+---------------------------
+
